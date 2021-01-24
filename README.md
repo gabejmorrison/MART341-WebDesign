@@ -1,1 +1,2 @@
-# MART341-WebDesign
+# MART341-WebDesign - Gabe Morrison
+This week my idea of what websites are and what the internet is went from a purple elephant in my mind to a trip to the zoo. The thing I feel most comfortable with now that I've completed this assignment is an overall understanding of the file types, and how to format directories as well as why they're formatted the way that they are. I'm still uncomfortable though with this subjectmatter as a whole though, bevause it's all so new and foreign to me. I'm trying to have faith though that I'll be able to figure it out as it comes, nobody leaves the womb with an understanding of this stuff I suppose. 
