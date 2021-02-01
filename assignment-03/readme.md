@@ -4,3 +4,5 @@
 New **paragraph**
 
 [Responses](./responses.txt)
+
+![Screenshot](./images/screenshot.png)
