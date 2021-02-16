@@ -4,4 +4,4 @@ I thought that it would be most interesting to go back and look at the older ver
 
 There are two things that are difficult for me at the moment, using and understanding the desktop version of github, and using and understanding the online version of github. The desktop application is frustrating for me to navigate but so far there hasn't been any problem that I haven't been able to figure out. The online version confuses me for the way that I seemingly have laid out my directories. I have several branches, several directories, and then other directories inside of those directories that are unorganized on the website but not unorganized locally in my files. I'm not sure how to rearrange them all so that they're in a format which makes more sense.
 
-! [Screenshot] (./images/screenshot.png)
+! [Screenshot] (https://github.com/gabejmorrison/MART341-WebDesign/blob/assignment-04/assignment-05/images/screenshot.png?raw=true)
