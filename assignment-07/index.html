@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Page</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Contact Information">
+  <meta name="author" content="Gabe Morrison">
+  <meta name="viewport" content"width=device-width, initial-scale=1.0">
+  <style>
+    table, th, td {
+      border: 1px solid black;
+    }
+    </style>
+  </head>
+
+<body>
+  <h1> Chipotle </h1>
+  <img src="./images/logo.jpg" alt="Chipotle's company logo" title="Chipotle" width="500" height="500"/>
+  <br />
+
+  <p>Chipotle's Address:</p>
+    <address>
+      Chipotle Mexican Grill<br />
+      2995 N Reserve St.<br />
+      Missoula, MT 59812
+    </address>
+  <p>Chipotle's Phone number: <br />
+    (406)-549-8030</p> <br />
+  <p>Email: <a href="mailto:gm168076@umconnect.umt.edu">Email</a><br /></p>
+
+
+  <h2>Hours of Operation</h2
+  <table>
+    <tr>
+      <th></th>
+      <th scope="col">M-F</th>
+      <th scope="col">Weekend</th>
+      </tr>
+    <tr>
+      <th scope="row">Opening Time</th>
+      <td>10:45 AM</td>
+      <td>10:45 AM</td>
+      </tr>
+    <tr>
+      <th scope="row">Closing Time</th>
+      <td>10:00 PM</td>
+      <td>10:00 PM</td>
+      </tr>
+    </table>
+
+  <form action="https://www.chipotle.com/" method="get" id="Chipotle" class="test-form">
+  <p>Which type of salsa do you like to order?
+    <input type="text" name="salsa" id="user-salsa"/>
+  </p>
+  <p>Further Comments:
+    <textarea name="comment" id="user-comment" cols="40" rows="5">Type feedback here...</textarea>
+  </p>
+  <p>Do you like guacamole?</p>
+  <input type="radio" name="guac" value="yes" checked /> Yes
+  <br />
+  <input type="radio" name="guac" value="no" /> No
+  <p>Let us know your favorite drink to pair with your food:</p>
+  <input type="text" name="drink"/>
+  <input type="submit" name="drink" value="Send!"/>
+  </form>
+
+
+
+  </body>
+</html>
