@@ -6,7 +6,7 @@
 
 .context{
   position: absolute;
-  left: 330px;
+  left: 360px;
   top: 20px;
 }
 
@@ -21,7 +21,7 @@
   position: absolute;
   left: 10px;
   bottom: 505px;
-  top: 20px;
+  top: 0px;
 }
 
 #head1{
