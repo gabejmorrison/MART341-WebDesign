@@ -13,7 +13,7 @@
   width: 310px;
   height: 500px;
   position: absolute;
-  left: 15px;
+  left: 10px;
   bottom: 505px;
 }
 
@@ -29,6 +29,9 @@
   border: 5px solid #FF0000;
   width: 310px;
   height: 500px;
+  position: absolute;
+  left: 10px;
+  bottom: 0px;
 }
 
 #odyssey{
