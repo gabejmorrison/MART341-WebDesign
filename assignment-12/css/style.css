@@ -62,3 +62,13 @@ header {
     background-color: #6f4d77;
     text-decoration: underline;
 }
+
+#bear{
+  border: 1px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding: 10px;
+  margin: 10px;
+}
