@@ -43,7 +43,7 @@ header {
 }
 .dropdown-content a {
     color: white;
-    background-color: #6f4d77;
+    background-color: #31013c;
 }
 .dropdown:hover .dropdown-content {
     display: block;
@@ -60,4 +60,5 @@ header {
 .dropdown-item:hover, .dropdown-item:hover a {
     color: white;
     background-color: #6f4d77;
+    text-decoration: underline;
 }
