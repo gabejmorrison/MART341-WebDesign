@@ -70,12 +70,10 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
   padding: 10px;
   margin: 10px;
   z-index: 1;
-  width: 800px;
-  min-width: 600px;
+  min-width: 800px;
 }
 
 #fish{
@@ -83,12 +81,11 @@ header {
     min-width: 200px;
     z-index: 2;
     position: relative;
-    top: 50px;
-    left: 400px;
+    top: 100px;
+    left: 500px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
     margin: 10px;
     display: inline;
-    width: 200px;
 }
