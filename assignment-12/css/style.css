@@ -13,9 +13,17 @@ header {
 
 .menu-item {
     display: inline-block;
+    min-width: 10em;
     margin: 0 0;
-    min-width: 8em;
     text-align: center;
-    background-color: #26272b;
-    padding: 0.5em 0;
+    background-color: #31013c;
 }
+
+.menu-item a {
+    color: white;
+    text-decoration: underline;
+  }
+
+.menu-item:hover {
+      background-color: #6f4d77;
+  }
