@@ -1,0 +1,12 @@
+header {
+  background-color: #31013c;
+  font-family: serif;
+  font-size: 16pt;
+  text-transform: uppercase;
+  text-align: left;
+  height: 4em;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
