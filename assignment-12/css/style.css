@@ -78,14 +78,15 @@ header {
 
 #fish{
     border: 1px solid black;
-    width: 50%;
     min-width: 400px;
     z-index: 2;
     position: relative;
-    top: 30px;
+    top: 50px;
+    left: 400px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
     margin: 10px;
     display: inline;
+    height: 200px;
 }
