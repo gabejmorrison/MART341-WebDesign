@@ -10,7 +10,9 @@ header {
   top: 0px;
   left: 0px;
 }
-
+.menu {
+  z-index: 3;
+}
 .menu-item {
     display: inline-block;
     min-width: 10em;
