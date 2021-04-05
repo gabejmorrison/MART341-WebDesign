@@ -68,9 +68,10 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 10px;
+  width: 400px;
   padding: 10px;
   margin: 10px;
+  z-index: 1;
 }
 
 #fish{
@@ -78,5 +79,7 @@ header {
     width: 50%;
     min-width: 400px;
     max-width: 600px;
-
+    z-index: 2;
+    position: relative;
+    top: 30px;
 }
