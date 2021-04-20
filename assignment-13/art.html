@@ -50,7 +50,7 @@
 
 <h1>Art!</h1> <br>
 
-<canvas id="firstArt" width="400" height="400" style="border:1px solid red;"></canvas>
+<canvas id="firstArt" width="400" height="400" style="border:1px solid blue;"></canvas>
 
 <script>
 var c = document.getElementById("firstArt");
@@ -74,7 +74,7 @@ ctx.strokeStyle="red";
 var c = document.getElementById("firstArt");
 var ctx = c.getContext("2d");
 ctx.beginPath();
-ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+ctx.arc(200, 200, 80, 0, 2 * Math.PI);
 ctx.stroke();
 ctx.strokeStyle="red";
 </script>
@@ -83,7 +83,7 @@ ctx.strokeStyle="red";
 var c = document.getElementById("firstArt");
 var ctx = c.getContext("2d");
 ctx.font = "60px Arial";
-ctx.strokeText("Beautiful Art", 200, 200);
+ctx.strokeText("Beautiful Art", 0, 200);
 </script>
 
 
