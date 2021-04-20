@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>NavSite</title>
+  <title>Art</title>
   <meta charset="UTF-8">
-  <meta name="description" content="About">
+  <meta name="description" content="Art">
   <meta name="author" content="Gabe Morrison">
   <meta name="viewport" content"width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="./css/style.css"/>
@@ -38,9 +38,9 @@
         <div class="menu-item">
           <a href="./contact.html">Contact Us</a>
           </div>
-        <div class="menu-item">
-          <a href="./art.html">Art</a>
-          </div>
+          <div class="menu-item">
+            <a href="./art.html">Art</a>
+            </div>
     </header>
     <!-- Note: I couldn't figure out how to get the elements to begin from the bottom of the drop down menu instead of the literal top of the page.-->
       <br>
@@ -48,11 +48,44 @@
       <br>
       <br>
 
-<h1>About Us</h1> <br>
-<p class="col-2">We are a company that exchanges caffeinated beverages for green paper, or certain metallic coins.</p> <br>
-<div id="Coffee_3" class="image">
-  <img src="./images/coffee_3.png" alt="An additional illustration of a cup of coffee" title="Even More Coffee"/>
-  </div>
+<h1>Title: The Best Thing Ever: Version 1</h1> <br>
+
+<canvas id="firstArt" width="400" height="400" style="border:1px solid blue;"></canvas>
+
+<script>
+var c = document.getElementById("firstArt");
+var ctx = c.getContext("2d");
+ctx.moveTo(0, 0);
+ctx.lineTo(400, 400);
+ctx.stroke();
+ctx.strokeStyle="red";
+</script>
+
+<script>
+var c = document.getElementById("firstArt");
+var ctx = c.getContext("2d");
+ctx.moveTo(400, 0);
+ctx.lineTo(0, 400);
+ctx.stroke();
+ctx.strokeStyle="red";
+</script>
+
+<script>
+var c = document.getElementById("firstArt");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(200, 200, 80, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.strokeStyle="red";
+</script>
+
+<script>
+var c = document.getElementById("firstArt");
+var ctx = c.getContext("2d");
+ctx.font = "60px Arial";
+ctx.strokeText("Beautiful Art", 35, 200);
+</script>
+
 
   </body>
 </html>
