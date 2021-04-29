@@ -9,7 +9,7 @@ body {
 header {
   background-color: #548f8d;
   font-family: serif;
-  font-size: 16pt;
+  font-size: 24pt;
   text-transform: uppercase;
   text-align: left;
   height: 4em;
@@ -76,10 +76,12 @@ header {
 img {
   max-width: 100%;
   height: auto;
+  border: 6px solid #004543;
 }
 
 h1 {
    font-family: Arial, Verdana;
+   color: #001763;
 }
 
 p  {
