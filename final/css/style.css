@@ -9,10 +9,10 @@ body {
 header {
   background-color: #548f8d;
   font-family: serif;
-  font-size: 24pt;
+  font-size: 16pt;
   text-transform: uppercase;
   text-align: left;
-  height: 4em;
+  height: 3em;
   width: 100%;
   position: fixed;
   top: 0px;
